@@ -1,0 +1,44 @@
+div{
+    width: 400px;
+    height: 400px;
+    border: 2-x solid rgb(0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+.div1{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-color: rgb(238, 18, 54);
+    z-index: 3;
+}
+.div2{
+    position: absolute;
+    top: 160px;
+    left: 440px;
+    background-color: rgb(247, 57, 88);
+    z-index: 2;
+    
+}
+.div3{
+    position: absolute;
+    top: 120px;
+    left: 480px;
+    background-color: rgb(255, 112, 136);
+    z-index: 1;
+}
+.div4{
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    background-color: rgb(255, 143, 161);
+    z-index: 0;
+}
+.div5{
+    position: absolute;
+    top: 40px;
+    left: 560px;
+    background-color: rgb(255, 207, 215);
+    z-index: -1;
+}
